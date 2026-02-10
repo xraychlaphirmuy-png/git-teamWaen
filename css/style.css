@@ -559,3 +559,34 @@ footer {
         top: 0;
     }
 }
+
+/* ===================================
+   Shopping Cart Styles
+   =================================== */
+
+#cartCount {
+    position: relative;
+    top: -2px;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    min-width: 20px;
+}
+
+.alert.fade-out {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Cart Badge Animation */
+@keyframes cartBounce {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.cart-updated {
+    animation: cartBounce 0.3s ease;
+}

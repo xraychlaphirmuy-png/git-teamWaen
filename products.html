@@ -43,6 +43,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">ติดต่อเรา</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">
+                            <i class="bi bi-cart3"></i>
+                            <span class="badge bg-danger" id="cartCount" style="display: none;">0</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -194,8 +200,14 @@
                                     <p class="card-text">Intel Core i7-13700K, RTX 4070, 32GB RAM</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="price">฿45,900</div>
-                                        <a href="product-detail.html?id=1"
-                                            class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        <div>
+                                            <button class="btn btn-success btn-sm me-1"
+                                                onclick="addToCartFromButton(this)" data-product-id="1">
+                                                <i class="bi bi-cart-plus"></i>
+                                            </button>
+                                            <a href="product-detail.html?id=1"
+                                                class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -212,8 +224,14 @@
                                     <p class="card-text">i9-13980HX, RTX 4060, 16GB RAM, 1TB SSD</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="price">฿52,900</div>
-                                        <a href="product-detail.html?id=2"
-                                            class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        <div>
+                                            <button class="btn btn-success btn-sm me-1"
+                                                onclick="addToCartFromButton(this)" data-product-id="2">
+                                                <i class="bi bi-cart-plus"></i>
+                                            </button>
+                                            <a href="product-detail.html?id=2"
+                                                class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -231,8 +249,14 @@
                                     <p class="card-text">Cherry MX Switch, RGB Backlight, TKL</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="price">฿3,490</div>
-                                        <a href="product-detail.html?id=3"
-                                            class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        <div>
+                                            <button class="btn btn-success btn-sm me-1"
+                                                onclick="addToCartFromButton(this)" data-product-id="3">
+                                                <i class="bi bi-cart-plus"></i>
+                                            </button>
+                                            <a href="product-detail.html?id=3"
+                                                class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -249,8 +273,14 @@
                                     <p class="card-text">2K QHD, IPS, 1ms Response Time</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="price">฿12,900</div>
-                                        <a href="product-detail.html?id=4"
-                                            class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        <div>
+                                            <button class="btn btn-success btn-sm me-1"
+                                                onclick="addToCartFromButton(this)" data-product-id="4">
+                                                <i class="bi bi-cart-plus"></i>
+                                            </button>
+                                            <a href="product-detail.html?id=4"
+                                                class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -267,8 +297,14 @@
                                     <p class="card-text">i7-13700H, RTX 4050, 16GB RAM, 512GB SSD</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="price">฿35,900</div>
-                                        <a href="product-detail.html?id=5"
-                                            class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        <div>
+                                            <button class="btn btn-success btn-sm me-1"
+                                                onclick="addToCartFromButton(this)" data-product-id="5">
+                                                <i class="bi bi-cart-plus"></i>
+                                            </button>
+                                            <a href="product-detail.html?id=5"
+                                                class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -285,8 +321,14 @@
                                     <p class="card-text">Intel Core i5-13400, 16GB RAM, 500GB SSD</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="price">฿28,900</div>
-                                        <a href="product-detail.html?id=6"
-                                            class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        <div>
+                                            <button class="btn btn-success btn-sm me-1"
+                                                onclick="addToCartFromButton(this)" data-product-id="6">
+                                                <i class="bi bi-cart-plus"></i>
+                                            </button>
+                                            <a href="product-detail.html?id=6"
+                                                class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -303,8 +345,14 @@
                                     <p class="card-text">RGB, 16000 DPI, Ergonomic Design</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="price">฿1,890</div>
-                                        <a href="product-detail.html?id=7"
-                                            class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        <div>
+                                            <button class="btn btn-success btn-sm me-1"
+                                                onclick="addToCartFromButton(this)" data-product-id="7">
+                                                <i class="bi bi-cart-plus"></i>
+                                            </button>
+                                            <a href="product-detail.html?id=7"
+                                                class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -321,8 +369,14 @@
                                     <p class="card-text">Surround Sound, Noise Cancelling Mic</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="price">฿2,490</div>
-                                        <a href="product-detail.html?id=8"
-                                            class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        <div>
+                                            <button class="btn btn-success btn-sm me-1"
+                                                onclick="addToCartFromButton(this)" data-product-id="8">
+                                                <i class="bi bi-cart-plus"></i>
+                                            </button>
+                                            <a href="product-detail.html?id=8"
+                                                class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -339,8 +393,14 @@
                                     <p class="card-text">Ryzen 7 7745HX, RTX 4060, 16GB RAM</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="price">฿42,900</div>
-                                        <a href="product-detail.html?id=9"
-                                            class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        <div>
+                                            <button class="btn btn-success btn-sm me-1"
+                                                onclick="addToCartFromButton(this)" data-product-id="9">
+                                                <i class="bi bi-cart-plus"></i>
+                                            </button>
+                                            <a href="product-detail.html?id=9"
+                                                class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -357,8 +417,14 @@
                                     <p class="card-text">Full HD, 144Hz, VA Panel, FreeSync</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="price">฿8,900</div>
-                                        <a href="product-detail.html?id=10"
-                                            class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        <div>
+                                            <button class="btn btn-success btn-sm me-1"
+                                                onclick="addToCartFromButton(this)" data-product-id="10">
+                                                <i class="bi bi-cart-plus"></i>
+                                            </button>
+                                            <a href="product-detail.html?id=10"
+                                                class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -376,8 +442,14 @@
                                     <p class="card-text">i9-13900K, RTX 4080, 64GB RAM, 2TB SSD</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="price">฿65,900</div>
-                                        <a href="product-detail.html?id=11"
-                                            class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        <div>
+                                            <button class="btn btn-success btn-sm me-1"
+                                                onclick="addToCartFromButton(this)" data-product-id="11">
+                                                <i class="bi bi-cart-plus"></i>
+                                            </button>
+                                            <a href="product-detail.html?id=11"
+                                                class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -394,8 +466,14 @@
                                     <p class="card-text">4K 60FPS, Auto Focus, Dual Microphone</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="price">฿4,990</div>
-                                        <a href="product-detail.html?id=12"
-                                            class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        <div>
+                                            <button class="btn btn-success btn-sm me-1"
+                                                onclick="addToCartFromButton(this)" data-product-id="12">
+                                                <i class="bi bi-cart-plus"></i>
+                                            </button>
+                                            <a href="product-detail.html?id=12"
+                                                class="btn btn-primary btn-sm">ดูรายละเอียด</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -472,6 +550,12 @@
 
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Cart JS -->
+    <script src="js/cart.js"></script>
+
+    <!-- Auto-add cart buttons -->
+    <script src="js/add-cart-buttons.js"></script>
 
     <!-- Custom JS -->
     <script src="js/script.js"></script>
